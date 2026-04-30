@@ -25,7 +25,7 @@ export default function MenuShowcase() {
   useEffect(() => {
     async function fetchdishes() {
       try {
-        const res = await fetch("https://www.themealdb.com/api/json/v1/1/filter.php?a=indian");
+        const res = await fetch("https://www.themealdb.com/api/json/v1/1/filter.php?a=spanish");
         const data = await res.json();
         setMeals(data.meals?.slice(0, 4) || []);
       } catch (error) {
