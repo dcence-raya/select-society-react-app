@@ -26,7 +26,7 @@ export default function Footer() {
         </a>
       </div>
 
-      <div className="font-body text-xs tracking-[0.1em] uppercase text-on-surface-variant opacity-60">© 2024 Select Society. All Rights Reserved.</div>
+      <div className="font-body text-xs tracking-[0.1em] uppercase text-on-surface-variant opacity-60">© 2026 Select Society. All Rights Reserved.</div>
     </footer>
   );
 }

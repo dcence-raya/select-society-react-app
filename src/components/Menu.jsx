@@ -18,7 +18,7 @@ function MenuCard({ title, subtitle, imgSrc, imgAlt }) {
   );
 }
 
-export default function MenuShowcase() {
+export default function Menu() {
   const [meals, setMeals] = useState([]);
   const [loading, setLoading] = useState(true);
 
